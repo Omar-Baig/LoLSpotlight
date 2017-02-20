@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0px;
+    border:0;
+    outline:0;
+}
+.parallax{
+    background-image:url(http://i.imgur.com/H2rckK2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:900px;
+}
+    #Champions{
+        list-style-type:none;  
+    }
+    p{
+        text-align:center;
+        font-size:18px;
+        font-family:Helvetica;   
+        margin-top:1px;
+        margin-bottom:5px;
+    }
+    .champUl {
+        list-style-type: none;
+        overflow:hidden;
+    }
+    li{
+        list-style:none;
+        float:left;
+    }
+    li a:hover{
+        background-color:green;
+    }
+    #page-wrap{
+        width:1200px;
+        margin: 0 auto;
+    }
+    .button{
+        border:3px solid black;
+        color:black;
+        background-color:white;
+        font-size:14px;
+        font-weight:700;
+        width:100px;
+    }
+    .button:hover{
+        opacity:.7;
+        color:green;
+    }
+

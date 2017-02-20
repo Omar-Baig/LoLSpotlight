@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+.parallax{
+    background-image:url(https://lolstatic-a.akamaihd.net/game-info/1.1.9/images/champion/backdrop/bg-ahri.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:900px;
+}
